@@ -10,6 +10,9 @@ footer {
 h1 {
   font-size: 60px;
 }
+h2 {
+  font-size: 40px;
+}
 p {
   color: dimgray;
   padding-bottom: 50px;
@@ -53,6 +56,9 @@ p {
   margin-bottom: 0px;
   padding-bottom: 0px;
   border-bottom: 0px;
+}
+.text-align {
+  text-align: center;
 }
 #contact-list {
   list-style-type: none;

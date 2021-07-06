@@ -39,8 +39,9 @@ p {
 }
 .half-width {
   width: 40%;
-  margin-left: 5%;
-  padding-left: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 2%;
 }
 .half-width img {
   width: 100%;
@@ -63,7 +64,7 @@ p {
 .one-third img {
   width: 100%;
 }
-.reducing-gap {
+.reducing-text-gap {
   padding-top: 0;
   margin-top: 0;
   border-top: 0;
@@ -87,6 +88,6 @@ p {
   display: flex;
 }
 #word-wrap {
-  padding-left: 100px;
-  padding-right: 100px;
+  max-width: 400px;
+  word-wrap: break-word;
 }
